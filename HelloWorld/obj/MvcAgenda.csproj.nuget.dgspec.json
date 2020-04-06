@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Flavius\\source\\repos\\MvcAgenda\\MvcAgenda.csproj": {}
+    "D:\\Projects\\McvHelloWorld\\HelloWorld\\MvcAgenda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Flavius\\source\\repos\\MvcAgenda\\MvcAgenda.csproj": {
+    "D:\\Projects\\McvHelloWorld\\HelloWorld\\MvcAgenda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Flavius\\source\\repos\\MvcAgenda\\MvcAgenda.csproj",
+        "projectUniqueName": "D:\\Projects\\McvHelloWorld\\HelloWorld\\MvcAgenda.csproj",
         "projectName": "MvcAgenda",
-        "projectPath": "C:\\Users\\Flavius\\source\\repos\\MvcAgenda\\MvcAgenda.csproj",
+        "projectPath": "D:\\Projects\\McvHelloWorld\\HelloWorld\\MvcAgenda.csproj",
         "packagesPath": "C:\\Users\\Flavius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Flavius\\source\\repos\\MvcAgenda\\obj\\",
+        "outputPath": "D:\\Projects\\McvHelloWorld\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Flavius\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,30 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
